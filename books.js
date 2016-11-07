@@ -19,9 +19,16 @@ var bookList = {
   createBookList: function(books) {
     var newList = document.createElement('ul');
     for (var i = 0; i < books.length; i++) {
-      var item = document.createElement('li');
-      item.appendChild(document.createTextNode(books[i].volumeInfo.title));
-      newList.appendChild(item);
+      var listItem = document.createElement('li'),
+      bookTitle = document.createElement('h2'),
+      bookDscr = document.createElement('div');
+
+      bookTitle.appendChild(document.createTextNode(books[i].volumeInfo.title));
+      bookDscr.appendChild(document.createTextNode(books[i].volumeInfo.description));
+
+      listItem.appendChild(bookTitle);
+      listItem.appendChild(bookDscr);
+      newList.appendChild(listItem);
     };
     document.getElementById('app').appendChild(newList);
   },
