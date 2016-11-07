@@ -21,13 +21,16 @@ var bookList = {
     for (var i = 0; i < books.length; i++) {
       var listItem = document.createElement('li'),
       bookTitle = document.createElement('h2'),
-      bookDscr = document.createElement('div');
+      bookDscr = document.createElement('div'),
+      bookThm = document.createElement('img');
 
       bookTitle.appendChild(document.createTextNode(books[i].volumeInfo.title));
-      bookDscr.appendChild(document.createTextNode(books[i].volumeInfo.description));
+      bookDscr.appendChild(document.createTextNode(books[i].volumeInfo.description.substring(0, 200)));
+      bookThm.setAttribute('src', books[i].volumeInfo.imageLinks.smallThumbnail);
 
       listItem.appendChild(bookTitle);
       listItem.appendChild(bookDscr);
+      listItem.appendChild(bookThm);
       newList.appendChild(listItem);
     };
     document.getElementById('app').appendChild(newList);
