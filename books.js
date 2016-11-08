@@ -29,17 +29,20 @@ booksApp.createBookList = function(books){
 
 booksApp.createBookRow = function(title, description, imgSrc) {
   var listItem = document.createElement('li'),
-  bookTitle = document.createElement('h2'),
-  bookDscr = document.createElement('div'),
+
+  bookContainer = document.createElement('article'),
+  bookTitle = document.createElement('h1'),
+  bookDscr = document.createElement('p'),
   bookThm = document.createElement('img');
 
   bookTitle.appendChild(document.createTextNode(title));
   bookDscr.appendChild(document.createTextNode(description.substring(0, 200)));
   bookThm.setAttribute('src', imgSrc);
 
-  listItem.appendChild(bookTitle);
-  listItem.appendChild(bookDscr);
-  listItem.appendChild(bookThm);
+  listItem.appendChild(bookContainer);
+  bookContainer.appendChild(bookTitle);
+  bookContainer.appendChild(bookThm);
+  bookContainer.appendChild(bookDscr);
   return listItem;
 }
 
