@@ -1,9 +1,9 @@
 var booksApp = {};
 
-booksApp.getBooks = function() {
+booksApp.getBooks = function(q) {
   var request = new XMLHttpRequest(),
   _this = this;
-  request.open('GET', 'https://www.googleapis.com/books/v1/volumes?q=javascript&maxResults=20&orderBy=newest', true);
+  request.open('GET', 'https://www.googleapis.com/books/v1/volumes?q=' + q + '&maxResults=20&orderBy=newest', true);
   request.onload = function() {
     if (request.status >= 200 && request.status < 400) {
       var data = JSON.parse(request.responseText);
@@ -29,6 +29,7 @@ booksApp.createBookList = function(books){
 
 booksApp.createBookRow = function(title, description, imgSrc) {
   var listItem = document.createElement('li'),
+  summary = this.createSummary(description, 200);
 
   bookContainer = document.createElement('article'),
   bookTitle = document.createElement('h1'),
@@ -36,7 +37,7 @@ booksApp.createBookRow = function(title, description, imgSrc) {
   bookThm = document.createElement('img');
 
   bookTitle.appendChild(document.createTextNode(title));
-  bookDscr.appendChild(document.createTextNode(description.substring(0, 200)));
+  bookDscr.appendChild(document.createTextNode(summary));
   bookThm.setAttribute('src', imgSrc);
 
   listItem.appendChild(bookContainer);
@@ -44,6 +45,11 @@ booksApp.createBookRow = function(title, description, imgSrc) {
   bookContainer.appendChild(bookThm);
   bookContainer.appendChild(bookDscr);
   return listItem;
-}
+};
 
-booksApp.getBooks();
+booksApp.createSummary = function(description, charCount) {
+  var summary = description.substring(0, charCount) + '...';
+  return summary;
+};
+
+booksApp.getBooks("javascript");
