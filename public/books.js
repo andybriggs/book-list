@@ -1,3 +1,5 @@
+'use strict';
+
 var booksApp = {};
 
 booksApp.getBooks = function(q) {
@@ -25,7 +27,6 @@ booksApp.createBookList = function(books){
     var book = this.createBook(books[i]);
     var row = this.createBookRow(book.title, book.description, book.thm, book.alt);
     newList.appendChild(row);
-
   };
   document.getElementById('app').appendChild(newList);
 };
@@ -34,7 +35,7 @@ booksApp.createBookRow = function(title, description, imgSrc, alt) {
   var listItem = document.createElement('li'),
   summary = this.createSummary(description, 200);
 
-  bookContainer = document.createElement('article'),
+  var bookContainer = document.createElement('article'),
   bookTitle = document.createElement('h1'),
   bookDscr = document.createElement('p'),
   bookThm = document.createElement('img');
