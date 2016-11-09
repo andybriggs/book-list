@@ -20,9 +20,18 @@ booksApp.getBooks = function(q) {
 
 booksApp.createBookList = function(books){
   var newList = document.createElement('ul');
+
   for (var i = 0; i < books.length; i++) {
-    var row = this.createBookRow(books[i].volumeInfo.title, books[i].volumeInfo.description, books[i].volumeInfo.imageLinks.smallThumbnail);
+
+    var book = {
+      title: books[i].volumeInfo.title,
+      description: books[i].volumeInfo.description,
+      thm: books[i].volumeInfo.imageLinks ? books[i].volumeInfo.imageLinks.smallThumbnail : './no-image.jpg'
+    };
+
+    var row = this.createBookRow(book.title, book.description, book.thm);
     newList.appendChild(row);
+
   };
   document.getElementById('app').appendChild(newList);
 };
