@@ -1,0 +1,1721 @@
+{
+kind: "books#volumes",
+totalItems: 1818,
+items: [
+{
+kind: "books#volume",
+id: "93MNDQAAQBAJ",
+etag: "uPIawphQ91M",
+selfLink: "https://www.googleapis.com/books/v1/volumes/93MNDQAAQBAJ",
+volumeInfo: {
+title: "Building Isomorphic JavaScript Apps",
+subtitle: "From Concept to Implementation to Real-World Solutions",
+authors: [
+"Jason Strimpel",
+"Maxime Najim"
+],
+publisher: ""O'Reilly Media, Inc."",
+publishedDate: "2016-09-12",
+description: "Isomorphic JavaScript, often described as the holy grail of web application development, refers to running JavaScript code on both the browser client and web application server. This application architecture has become increasingly popular for the benefits of SEO, optimized page load and full control of the UI, and isomorphic libraries are being used at companies like Walmart, Airbnb, Facebook, and Netflix. With this practical book, authors Jason Strimpel and Maxime Najim provide the knowledge you need to build and maintain your own isomorphic JavaScript apps. This book includes: Part 1 identifies different classifications of isomorphic JavaScript apps, and shows you how to set up a development environment Part 2 takes you from theory to practice by showing you how to build out your own isomorphic app Part 3 takes you through existing solutions in the market today, providing you with the knowledge you need to bring isomorphic solutions into your development workflow",
+industryIdentifiers: [
+{
+type: "ISBN_13",
+identifier: "9781491932889"
+},
+{
+type: "ISBN_10",
+identifier: "1491932880"
+}
+],
+readingModes: {
+text: true,
+image: true
+},
+pageCount: 210,
+printType: "BOOK",
+categories: [
+"Computers"
+],
+maturityRating: "NOT_MATURE",
+allowAnonLogging: false,
+contentVersion: "1.1.1.0.preview.3",
+imageLinks: {
+smallThumbnail: "http://books.google.com/books/content?id=93MNDQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+thumbnail: "http://books.google.com/books/content?id=93MNDQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+},
+language: "en",
+previewLink: "http://books.google.co.uk/books?id=93MNDQAAQBAJ&printsec=frontcover&dq=javascript&hl=&cd=1&source=gbs_api",
+infoLink: "https://play.google.com/store/books/details?id=93MNDQAAQBAJ&source=gbs_api",
+canonicalVolumeLink: "https://market.android.com/details?id=book-93MNDQAAQBAJ"
+},
+saleInfo: {
+country: "GB",
+saleability: "FOR_SALE",
+isEbook: true,
+listPrice: {
+amount: 25.8,
+currencyCode: "GBP"
+},
+retailPrice: {
+amount: 16.77,
+currencyCode: "GBP"
+},
+buyLink: "https://play.google.com/store/books/details?id=93MNDQAAQBAJ&rdid=book-93MNDQAAQBAJ&rdot=1&source=gbs_api",
+offers: [
+{
+finskyOfferType: 1,
+listPrice: {
+amountInMicros: 25800000,
+currencyCode: "GBP"
+},
+retailPrice: {
+amountInMicros: 16770000,
+currencyCode: "GBP"
+},
+giftable: true
+}
+]
+},
+accessInfo: {
+country: "GB",
+viewability: "PARTIAL",
+embeddable: true,
+publicDomain: false,
+textToSpeechPermission: "ALLOWED",
+epub: {
+isAvailable: true
+},
+pdf: {
+isAvailable: true
+},
+webReaderLink: "http://books.google.co.uk/books/reader?id=93MNDQAAQBAJ&hl=&printsec=frontcover&output=reader&source=gbs_api",
+accessViewStatus: "SAMPLE",
+quoteSharingAllowed: false
+},
+searchInfo: {
+textSnippet: "This book includes: Part 1 identifies different classifications of isomorphic JavaScript apps, and shows you how to set up a development environment Part 2 takes you from theory to practice by showing you how to build out your own ..."
+}
+},
+{
+kind: "books#volume",
+id: "2sR5jwEACAAJ",
+etag: "ao1Ddo4Ie3Q",
+selfLink: "https://www.googleapis.com/books/v1/volumes/2sR5jwEACAAJ",
+volumeInfo: {
+title: "Test-Driving JavaScript Applications",
+subtitle: "Rapid, Confident, Maintainable Code",
+authors: [
+"Venkat Subramaniam"
+],
+publishedDate: "2016-10",
+description: "Debunk the myth that JavaScript is not easily testable. Whether you use Node.js, Express, MongoDB, jQuery, AngularJS, or directly manipulate the DOM, you can test-drive JavaScript. Learn the craft of writing meaningful, deterministic automated tests with Karma, Mocha, and Chai. Test asynchronous JavaScript, decouple and properly mock out dependencies, measure code coverage, and create lightweight modular designs of both server-side and client-side code. Your investment in writing tests will pay high dividends as you create code that's predictable and cost-effective to change. Design and code JavaScript applications with automated tests. Writing meaningful tests is a skill that takes learning, some unlearning, and a lot of practice, and with this book, you'll hone that skill. Fire up the editor and get hands-on through practical exercises for effective automated testing and designing maintainable, modular code. Start by learning when and why to do manual testing vs. automated verification. Focus tests on the important things, like the pre-conditions, the invariants, complex logic, and gnarly edge cases. Then begin to design asynchronous functions using automated tests. Carefully decouple and mock out intricate dependencies such as the DOM, geolocation API, file and database access, and Ajax calls to remote servers. Step by step, test code that uses Node.js, Express, MongoDB, jQuery, and AngularJS. Know when and how to use tools such as Chai, Istanbul, Karma, Mocha, Protractor, and Sinon. Create tests with minimum effort and run them fast without having to spin up web servers or manually edit HTML pages to run in browsers. Then explore end-to-end testing to ensure all parts are wired and working well together. Don't just imagine creating testable code, write it. What You Need: A computer with a text editor and your favorite browser. The book provides instructions to install the necessary automated testing-related tools.",
+industryIdentifiers: [
+{
+type: "ISBN_10",
+identifier: "1680501747"
+},
+{
+type: "ISBN_13",
+identifier: "9781680501742"
+}
+],
+readingModes: {
+text: false,
+image: false
+},
+pageCount: 200,
+printType: "BOOK",
+categories: [
+"Computers"
+],
+maturityRating: "NOT_MATURE",
+allowAnonLogging: false,
+contentVersion: "preview-1.0.0",
+imageLinks: {
+smallThumbnail: "http://books.google.com/books/content?id=2sR5jwEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+thumbnail: "http://books.google.com/books/content?id=2sR5jwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+},
+language: "en",
+previewLink: "http://books.google.co.uk/books?id=2sR5jwEACAAJ&dq=javascript&hl=&cd=2&source=gbs_api",
+infoLink: "http://books.google.co.uk/books?id=2sR5jwEACAAJ&dq=javascript&hl=&source=gbs_api",
+canonicalVolumeLink: "http://books.google.co.uk/books/about/Test_Driving_JavaScript_Applications.html?hl=&id=2sR5jwEACAAJ"
+},
+saleInfo: {
+country: "GB",
+saleability: "NOT_FOR_SALE",
+isEbook: false
+},
+accessInfo: {
+country: "GB",
+viewability: "NO_PAGES",
+embeddable: false,
+publicDomain: false,
+textToSpeechPermission: "ALLOWED",
+epub: {
+isAvailable: false
+},
+pdf: {
+isAvailable: false
+},
+webReaderLink: "http://books.google.co.uk/books/reader?id=2sR5jwEACAAJ&hl=&printsec=frontcover&output=reader&source=gbs_api",
+accessViewStatus: "NONE",
+quoteSharingAllowed: false
+},
+searchInfo: {
+textSnippet: "Design and code JavaScript applications with automated tests. Writing meaningful tests is a skill that takes learning, some unlearning, and a lot of practice, and with this book, you&#39;ll hone that skill."
+}
+},
+{
+kind: "books#volume",
+id: "eE8nCgAAQBAJ",
+etag: "GX23mTp001c",
+selfLink: "https://www.googleapis.com/books/v1/volumes/eE8nCgAAQBAJ",
+volumeInfo: {
+title: "Pro JavaScript Techniques",
+subtitle: "Second Edition",
+authors: [
+"John Paxton",
+"John Resig",
+"Russ Ferguson"
+],
+publisher: "Apress",
+publishedDate: "2015-07-10",
+description: "Pro JavaScript Techniques is the ultimate JavaScript book for today's web developer. It provides everything you need to know about modern JavaScript, and teaches you what JavaScript can do for your web sites. This book doesn't waste any time looking at things you already know, but instead concentrates on fundamental, vital topics—what modern JavaScripting is (and isn't), and pitfalls to be wary of. You will learn about the 'this' keyword, as well as new object tools. You will be able to create reusable code with encapsulation, overloading and inheritance. The most recent techniques for debugging and testing are covered comprehensively, with information on Chrome developer tools, Jasmine, PhantomJS and Protractor. This update finishes with chapters on constructing single-page web applications that dominate the modern web. The book is filled with real-world examples and case studies, as well as numerous reusable functions and classes to save you time in your development. You will learn the practical skills needed to build professional, dynamic web applications. Pro JavaScript Techniques is an indispensable reference for any professional JavaScript web developer—enhance your JavaScript development today.",
+industryIdentifiers: [
+{
+type: "ISBN_13",
+identifier: "9781430263920"
+},
+{
+type: "ISBN_10",
+identifier: "143026392X"
+}
+],
+readingModes: {
+text: true,
+image: true
+},
+pageCount: 204,
+printType: "BOOK",
+categories: [
+"Computers"
+],
+maturityRating: "NOT_MATURE",
+allowAnonLogging: true,
+contentVersion: "0.5.5.0.preview.3",
+imageLinks: {
+smallThumbnail: "http://books.google.com/books/content?id=eE8nCgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+thumbnail: "http://books.google.com/books/content?id=eE8nCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+},
+language: "en",
+previewLink: "http://books.google.co.uk/books?id=eE8nCgAAQBAJ&printsec=frontcover&dq=javascript&hl=&cd=3&source=gbs_api",
+infoLink: "https://play.google.com/store/books/details?id=eE8nCgAAQBAJ&source=gbs_api",
+canonicalVolumeLink: "https://market.android.com/details?id=book-eE8nCgAAQBAJ"
+},
+saleInfo: {
+country: "GB",
+saleability: "FOR_SALE",
+isEbook: true,
+listPrice: {
+amount: 23.5,
+currencyCode: "GBP"
+},
+retailPrice: {
+amount: 15.28,
+currencyCode: "GBP"
+},
+buyLink: "https://play.google.com/store/books/details?id=eE8nCgAAQBAJ&rdid=book-eE8nCgAAQBAJ&rdot=1&source=gbs_api",
+offers: [
+{
+finskyOfferType: 1,
+listPrice: {
+amountInMicros: 23500000,
+currencyCode: "GBP"
+},
+retailPrice: {
+amountInMicros: 15280000,
+currencyCode: "GBP"
+},
+giftable: true
+}
+]
+},
+accessInfo: {
+country: "GB",
+viewability: "PARTIAL",
+embeddable: true,
+publicDomain: false,
+textToSpeechPermission: "ALLOWED",
+epub: {
+isAvailable: true,
+acsTokenLink: "http://books.google.co.uk/books/download/Pro_JavaScript_Techniques-sample-epub.acsm?id=eE8nCgAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+},
+pdf: {
+isAvailable: true,
+acsTokenLink: "http://books.google.co.uk/books/download/Pro_JavaScript_Techniques-sample-pdf.acsm?id=eE8nCgAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+},
+webReaderLink: "http://books.google.co.uk/books/reader?id=eE8nCgAAQBAJ&hl=&printsec=frontcover&output=reader&source=gbs_api",
+accessViewStatus: "SAMPLE",
+quoteSharingAllowed: false
+},
+searchInfo: {
+textSnippet: "Pro JavaScript Techniques is the ultimate JavaScript book for today&#39;s web developer."
+}
+},
+{
+kind: "books#volume",
+id: "B_HTjwEACAAJ",
+etag: "RnWwFnTrkps",
+selfLink: "https://www.googleapis.com/books/v1/volumes/B_HTjwEACAAJ",
+volumeInfo: {
+title: "Mastering JavaScript Single Page Application Development",
+authors: [
+"Philip Klauzinski",
+"John Moore"
+],
+publishedDate: "2016-08-31",
+description: "An in-depth guide to exploring the design, architecture, and techniques behind building sophisticated, scalable, and maintainable single-page applications in JavaScriptAbout This Book* Build large-scale, feature-complete SPAs by leveraging widely used tools and techniques.* Gain a solid understanding of architecture and SPA design to build applications using the library or framework of your choice.* Explore the various facets of SPA development to build web apps that are fast, scalable, and easy to test.Who This Book Is ForThis book is ideal for JavaScript developers who want to build complex single-page applications in JavaScript. Some basic understanding of SPA concepts will be helpful but not essential.What You Will Learn* Organize your development environment using the command line with NPM, Bower, and Grunt.* Choose an accurate design pattern for your app* Understand modular JavaScript programming and Node.js* interact with a REST API using JavaScript and AJAX with practical examples* Build a single page application using the MEAN stack* Connect your app across popular social media platforms such as Facebook, Twitter, and LinkedIn* Test your app, both on the server side and in views* Prepare your app for the real world and deploy it to HerokuIn DetailSingle-page web applications-or SPAs, as they are commonly referred to-are quickly becoming the de facto standard for web app development. The fact that a major part of the app runs inside a single web page makes it very interesting and appealing. Also, the accelerated growth of browser capabilities is pushing us closer to the day when all apps will run entirely in the browser.This book will take your JavaScript development skills to the next level by teaching you to create a single-page application within a full-stack JavaScript environment. Using only JavaScript, you can go from being a front-end developer to a full-stack application developer with relative ease.You will learn to cross the boundary from front-end development to server-side development through the use of JavaScript on both ends. Use your existing knowledge of JavaScript by learning to manage a JSON document data store with MongoDB, writing a JavaScript powered REST API with Node.js and Express, and designing a front-end powered by AngularJS.This book will teach you to leverage the MEAN stack to do everything from document database design, routing REST web API requests, data-binding within views, and adding authentication and security to building a full-fledged, complex, single-page web application.In addition to building a full-stack JavaScript app, you will learn to test it with JavaScript-powered testing tools such as Mocha, Karma, and Jasmine. Finally, you will learn about deployment and scaling so that you can launch your own apps into the real world.",
+industryIdentifiers: [
+{
+type: "ISBN_10",
+identifier: "1785881647"
+},
+{
+type: "ISBN_13",
+identifier: "9781785881640"
+}
+],
+readingModes: {
+text: false,
+image: false
+},
+pageCount: 505,
+printType: "BOOK",
+maturityRating: "NOT_MATURE",
+allowAnonLogging: false,
+contentVersion: "preview-1.0.0",
+imageLinks: {
+smallThumbnail: "http://books.google.com/books/content?id=B_HTjwEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+thumbnail: "http://books.google.com/books/content?id=B_HTjwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+},
+language: "en",
+previewLink: "http://books.google.co.uk/books?id=B_HTjwEACAAJ&dq=javascript&hl=&cd=4&source=gbs_api",
+infoLink: "http://books.google.co.uk/books?id=B_HTjwEACAAJ&dq=javascript&hl=&source=gbs_api",
+canonicalVolumeLink: "http://books.google.co.uk/books/about/Mastering_JavaScript_Single_Page_Applica.html?hl=&id=B_HTjwEACAAJ"
+},
+saleInfo: {
+country: "GB",
+saleability: "NOT_FOR_SALE",
+isEbook: false
+},
+accessInfo: {
+country: "GB",
+viewability: "NO_PAGES",
+embeddable: false,
+publicDomain: false,
+textToSpeechPermission: "ALLOWED",
+epub: {
+isAvailable: false
+},
+pdf: {
+isAvailable: false
+},
+webReaderLink: "http://books.google.co.uk/books/reader?id=B_HTjwEACAAJ&hl=&printsec=frontcover&output=reader&source=gbs_api",
+accessViewStatus: "NONE",
+quoteSharingAllowed: false
+},
+searchInfo: {
+textSnippet: "An in-depth guide to exploring the design, architecture, and techniques behind building sophisticated, scalable, and maintainable single-page applications in JavaScriptAbout This Book* Build large-scale, feature-complete SPAs by leveraging ..."
+}
+},
+{
+kind: "books#volume",
+id: "thezCQAAQBAJ",
+etag: "dRMr5a5J1Ns",
+selfLink: "https://www.googleapis.com/books/v1/volumes/thezCQAAQBAJ",
+volumeInfo: {
+title: "Reliable JavaScript",
+subtitle: "How to Code Safely in the World's Most Dangerous Language",
+authors: [
+"Lawrence Spencer",
+"Seth Richards"
+],
+publisher: "John Wiley & Sons",
+publishedDate: "2015-06-29",
+description: "Create more robust applications with a test-first approach to JavaScript Reliable JavaScript, How to Code Safely in the World's Most Dangerous Language demonstrates how to create test-driven development for large-scale JavaScript applications that will stand the test of time and stay accurate through long-term use and maintenance. Taking a test-first approach to software architecture, this book walks you through several patterns and practices and explains what they are supposed to do by having you write unit tests. Write the code to pass the unit tests, so you not only develop your technique for structuring large-scale applications, but you also learn how to test your work. You'll come away with hands-on practice that results in code that is correct from the start, and has the test coverage to ensure that it stays correct during subsequent maintenance. All code is provided both in the text and on the web, so you can immediately get started designing more complete, robust applications. JavaScript has graduated from field-validation scripts to full-scale applications, but many developers still approach their work as if they were writing simple scripts. If you're one of those developers, this book is the solution you need to whip your code into shape and create JavaScript applications that work. Write more concise and elegant code by thinking in JavaScript Test the implementation and use of common design patterns Master the use of advanced JavaScript features Ensure your code's conformance to your organization's standards If you're ready to step up your code and develop more complete software solutions, Reliable JavaScript is your essential resource.",
+industryIdentifiers: [
+{
+type: "ISBN_13",
+identifier: "9781119028741"
+},
+{
+type: "ISBN_10",
+identifier: "1119028744"
+}
+],
+readingModes: {
+text: true,
+image: true
+},
+pageCount: 528,
+printType: "BOOK",
+categories: [
+"Computers"
+],
+maturityRating: "NOT_MATURE",
+allowAnonLogging: false,
+contentVersion: "1.5.5.0.preview.3",
+imageLinks: {
+smallThumbnail: "http://books.google.com/books/content?id=thezCQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+thumbnail: "http://books.google.com/books/content?id=thezCQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+},
+language: "en",
+previewLink: "http://books.google.co.uk/books?id=thezCQAAQBAJ&printsec=frontcover&dq=javascript&hl=&cd=5&source=gbs_api",
+infoLink: "https://play.google.com/store/books/details?id=thezCQAAQBAJ&source=gbs_api",
+canonicalVolumeLink: "https://market.android.com/details?id=book-thezCQAAQBAJ"
+},
+saleInfo: {
+country: "GB",
+saleability: "FOR_SALE",
+isEbook: true,
+listPrice: {
+amount: 25.99,
+currencyCode: "GBP"
+},
+retailPrice: {
+amount: 25.99,
+currencyCode: "GBP"
+},
+buyLink: "https://play.google.com/store/books/details?id=thezCQAAQBAJ&rdid=book-thezCQAAQBAJ&rdot=1&source=gbs_api",
+offers: [
+{
+finskyOfferType: 1,
+listPrice: {
+amountInMicros: 25990000,
+currencyCode: "GBP"
+},
+retailPrice: {
+amountInMicros: 25990000,
+currencyCode: "GBP"
+},
+giftable: true
+}
+]
+},
+accessInfo: {
+country: "GB",
+viewability: "PARTIAL",
+embeddable: true,
+publicDomain: false,
+textToSpeechPermission: "ALLOWED",
+epub: {
+isAvailable: true,
+acsTokenLink: "http://books.google.co.uk/books/download/Reliable_JavaScript-sample-epub.acsm?id=thezCQAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+},
+pdf: {
+isAvailable: true,
+acsTokenLink: "http://books.google.co.uk/books/download/Reliable_JavaScript-sample-pdf.acsm?id=thezCQAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+},
+webReaderLink: "http://books.google.co.uk/books/reader?id=thezCQAAQBAJ&hl=&printsec=frontcover&output=reader&source=gbs_api",
+accessViewStatus: "SAMPLE",
+quoteSharingAllowed: false
+},
+searchInfo: {
+textSnippet: "This book uses unit tests to explain, demonstrate, and employ a wide variety of JavaScript patterns and architectures."
+}
+},
+{
+kind: "books#volume",
+id: "MhNhBgAAQBAJ",
+etag: "M2Z23JrkkSc",
+selfLink: "https://www.googleapis.com/books/v1/volumes/MhNhBgAAQBAJ",
+volumeInfo: {
+title: "Coding with JavaScript For Dummies",
+authors: [
+"Dummies"
+],
+publisher: "John Wiley & Sons",
+publishedDate: "2015-05-11",
+description: "Everybody needs to know a little about coding. Whether you're starting from scratch with no coding experience or need to add JavaScript knowledge to your tool set, Coding with JavaScript For Dummies helps you get the job done. The book assumes no prior coding knowledge as it walks you through the basics of JavaScript syntax, applications, and language. Along the way you'll try out some practical application of JavaScript, including creating interactive web elements and basic applications, thanks to the online exercises created by Codecademy.com. This book covers: - The basics of JavaScript, including what it does, how it works, and where it works - Introductions to the core elements of JavaScript - Ways to apply JavaScript to a web project - JavaScript's role in application development",
+industryIdentifiers: [
+{
+type: "ISBN_13",
+identifier: "9781119056072"
+},
+{
+type: "ISBN_10",
+identifier: "1119056071"
+}
+],
+readingModes: {
+text: false,
+image: true
+},
+pageCount: 384,
+printType: "BOOK",
+categories: [
+"Computers"
+],
+maturityRating: "NOT_MATURE",
+allowAnonLogging: false,
+contentVersion: "1.7.1.0.preview.1",
+imageLinks: {
+smallThumbnail: "http://books.google.com/books/content?id=MhNhBgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+thumbnail: "http://books.google.com/books/content?id=MhNhBgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+},
+language: "en",
+previewLink: "http://books.google.co.uk/books?id=MhNhBgAAQBAJ&printsec=frontcover&dq=javascript&hl=&cd=6&source=gbs_api",
+infoLink: "http://books.google.co.uk/books?id=MhNhBgAAQBAJ&dq=javascript&hl=&source=gbs_api",
+canonicalVolumeLink: "http://books.google.co.uk/books/about/Coding_with_JavaScript_For_Dummies.html?hl=&id=MhNhBgAAQBAJ"
+},
+saleInfo: {
+country: "GB",
+saleability: "NOT_FOR_SALE",
+isEbook: false
+},
+accessInfo: {
+country: "GB",
+viewability: "PARTIAL",
+embeddable: true,
+publicDomain: false,
+textToSpeechPermission: "ALLOWED",
+epub: {
+isAvailable: false
+},
+pdf: {
+isAvailable: false
+},
+webReaderLink: "http://books.google.co.uk/books/reader?id=MhNhBgAAQBAJ&hl=&printsec=frontcover&output=reader&source=gbs_api",
+accessViewStatus: "SAMPLE",
+quoteSharingAllowed: false
+},
+searchInfo: {
+textSnippet: "This book covers: - The basics of JavaScript, including what it does, how it works, and where it works - Introductions to the core elements of JavaScript - Ways to apply JavaScript to a web project - JavaScript&#39;s role in application ..."
+}
+},
+{
+kind: "books#volume",
+id: "lI3WjwEACAAJ",
+etag: "Bz6rnv93ecc",
+selfLink: "https://www.googleapis.com/books/v1/volumes/lI3WjwEACAAJ",
+volumeInfo: {
+title: "Modular Programming with JavaScript",
+authors: [
+"Sasan Seydnejad"
+],
+publisher: "Packt Publishing",
+publishedDate: "2016-07-22",
+description: "Modularize your JavaScript code for better readability, greater maintainability, and enhanced testabilityAbout This Book- Design and build fully modular, modern JavaScript applications using modular design concepts- Improve code portability, maintainability, and integrity while creating highly scalable and responsive web applications- Implement your own loosely coupled code blocks that can power highly maintainable and powerful applications in a flexible and highly responsive modular architectureWho This Book Is ForIf you are an intermediate to advanced JavaScript developer who has experience of writing JavaScript code but probably not in a modular, portable manner, or you are looking to develop enterprise level JavaScript applications, then this book is for you.A basic understanding of JavaScript concepts such as OOP, prototypal inheritance, and closures is expected.What You Will Learn- Understand the important concepts of OOP in JavaScript, such as scope, objects, inheritance, event delegation, and more- Find out how the module design pattern is used in OOP in JavaScript- Design and augment modules using both tight augmentation and loose augmentation- Extend the capabilities of modules by creating sub-modules using techniques such as cloning and inheritance- Move from isolated module pieces to a cohesive, well integrated application modules that can interact and work together without being tightly coupled- See how SandBoxing is used to create a medium for all the modules to talk to each other as well as to the core- Use the concepts of modular application design to handle dependencies and load modules asynchronously- Become familiar with AMD and CommonJS utilities and discover what the future of JavaScript holds for modular programming and architectureIn DetailProgramming in the modular manner is always encouraged for bigger systems-it is easier to achieve scalability with modular programming. Even JavaScript developers are now interested in building programs in a modular pattern. Modules help people who aren't yet familiar with code to find what they are looking for and also makes it easier for programmers to keep things that are related close together.Designing and implementing applications in a modular manner is highly encouraged and desirable in both simple and enterprise level applications.This book covers some real-life examples of modules and how we can translate that into our world of programming and application design. After getting an overview of JavaScript object-oriented programming (OOP) concepts and their practical usage, you should be able to write your own object definitions using the module pattern. You will then learn to design and augment modules and will explore the concepts of cloning, inheritance, sub-modules, and code extensibility. You will also learn about SandBoxing, application design, and architecture based on modular design concepts. Become familiar with AMD and CommonJS utilities.By the end of the book, you will be able to build spectacular modular applications in JavaScript.Style and approachThis in-depth step-by-step guide will teach you modular programming with JavaScript. Starting from the basics, it will cover advanced modular patterns that can be used in sophisticated JavaScript applications.",
+industryIdentifiers: [
+{
+type: "ISBN_10",
+identifier: "1785880659"
+},
+{
+type: "ISBN_13",
+identifier: "9781785880650"
+}
+],
+readingModes: {
+text: false,
+image: false
+},
+pageCount: 274,
+printType: "BOOK",
+categories: [
+"Computers"
+],
+maturityRating: "NOT_MATURE",
+allowAnonLogging: false,
+contentVersion: "preview-1.0.0",
+imageLinks: {
+smallThumbnail: "http://books.google.com/books/content?id=lI3WjwEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+thumbnail: "http://books.google.com/books/content?id=lI3WjwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+},
+language: "en",
+previewLink: "http://books.google.co.uk/books?id=lI3WjwEACAAJ&dq=javascript&hl=&cd=7&source=gbs_api",
+infoLink: "http://books.google.co.uk/books?id=lI3WjwEACAAJ&dq=javascript&hl=&source=gbs_api",
+canonicalVolumeLink: "http://books.google.co.uk/books/about/Modular_Programming_with_JavaScript.html?hl=&id=lI3WjwEACAAJ"
+},
+saleInfo: {
+country: "GB",
+saleability: "NOT_FOR_SALE",
+isEbook: false
+},
+accessInfo: {
+country: "GB",
+viewability: "NO_PAGES",
+embeddable: false,
+publicDomain: false,
+textToSpeechPermission: "ALLOWED",
+epub: {
+isAvailable: false
+},
+pdf: {
+isAvailable: false
+},
+webReaderLink: "http://books.google.co.uk/books/reader?id=lI3WjwEACAAJ&hl=&printsec=frontcover&output=reader&source=gbs_api",
+accessViewStatus: "NONE",
+quoteSharingAllowed: false
+},
+searchInfo: {
+textSnippet: "Modularize your JavaScript code for better readability, greater maintainability, and enhanced testabilityAbout This Book- Design and build fully modular, modern JavaScript applications using modular design concepts- Improve code portability ..."
+}
+},
+{
+kind: "books#volume",
+id: "HuXuBwAAQBAJ",
+etag: "+kSaOQka15I",
+selfLink: "https://www.googleapis.com/books/v1/volumes/HuXuBwAAQBAJ",
+volumeInfo: {
+title: "Functional Programming in JavaScript",
+authors: [
+"Dan Mantyla"
+],
+publisher: "Packt Publishing Ltd",
+publishedDate: "2015-03-25",
+description: "If you are a JavaScript developer interested in learning functional programming, looking for the quantum leap towards mastering the JavaScript language, or just want to become a better programmer in general, then this book is ideal for you. It is aimed at programmers involved in developing reactive frontend apps, server-side apps that wrangle with reliability and concurrency, and everything in between.",
+industryIdentifiers: [
+{
+type: "ISBN_13",
+identifier: "9781784392406"
+},
+{
+type: "ISBN_10",
+identifier: "1784392405"
+}
+],
+readingModes: {
+text: true,
+image: true
+},
+pageCount: 172,
+printType: "BOOK",
+categories: [
+"Computers"
+],
+maturityRating: "NOT_MATURE",
+allowAnonLogging: true,
+contentVersion: "2.2.2.0.preview.3",
+imageLinks: {
+smallThumbnail: "http://books.google.com/books/content?id=HuXuBwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+thumbnail: "http://books.google.com/books/content?id=HuXuBwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+},
+language: "en",
+previewLink: "http://books.google.co.uk/books?id=HuXuBwAAQBAJ&printsec=frontcover&dq=javascript&hl=&cd=8&source=gbs_api",
+infoLink: "https://play.google.com/store/books/details?id=HuXuBwAAQBAJ&source=gbs_api",
+canonicalVolumeLink: "https://market.android.com/details?id=book-HuXuBwAAQBAJ"
+},
+saleInfo: {
+country: "GB",
+saleability: "FOR_SALE",
+isEbook: true,
+listPrice: {
+amount: 19.19,
+currencyCode: "GBP"
+},
+retailPrice: {
+amount: 12.47,
+currencyCode: "GBP"
+},
+buyLink: "https://play.google.com/store/books/details?id=HuXuBwAAQBAJ&rdid=book-HuXuBwAAQBAJ&rdot=1&source=gbs_api",
+offers: [
+{
+finskyOfferType: 1,
+listPrice: {
+amountInMicros: 19190000,
+currencyCode: "GBP"
+},
+retailPrice: {
+amountInMicros: 12470000,
+currencyCode: "GBP"
+},
+giftable: true
+}
+]
+},
+accessInfo: {
+country: "GB",
+viewability: "PARTIAL",
+embeddable: true,
+publicDomain: false,
+textToSpeechPermission: "ALLOWED",
+epub: {
+isAvailable: true
+},
+pdf: {
+isAvailable: true
+},
+webReaderLink: "http://books.google.co.uk/books/reader?id=HuXuBwAAQBAJ&hl=&printsec=frontcover&output=reader&source=gbs_api",
+accessViewStatus: "SAMPLE",
+quoteSharingAllowed: false
+},
+searchInfo: {
+textSnippet: "If you are a JavaScript developer interested in learning functional programming, looking for the quantum leap towards mastering the JavaScript language, or just want to become a better programmer in general, then this book is ideal for you."
+}
+},
+{
+kind: "books#volume",
+id: "CUgjCAAAQBAJ",
+etag: "RiCWcJo+HV4",
+selfLink: "https://www.googleapis.com/books/v1/volumes/CUgjCAAAQBAJ",
+volumeInfo: {
+title: "Data Visualization with JavaScript",
+authors: [
+"Stephen A. Thomas"
+],
+publisher: "No Starch Press",
+publishedDate: "2015-03-23",
+description: "You've got data to communicate. But what kind of visualization do you choose, how do you build it, and how do you ensure that it's up to the demands of the Web? In Data Visualization with JavaScript, you'll learn how to use JavaScript, HTML, and CSS to build the most practical visualizations for your data. Step-by-step examples walk you through creating, integrating, and debugging different types of visualizations and will have you building basic visualizations, like bar, line, and scatter graphs, in no time. Then you'll move on to more advanced topics, including how to: Create tree maps, heat maps, network graphs, word clouds, and timelines Map geographic data, and build sparklines and composite charts Add interactivity and retrieve data with AJAX Manage data in the browser and build data-driven web applications Harness the power of the Flotr2, Flot, Chronoline.js, D3.js, Underscore.js, and Backbone.js libraries If you already know your way around building a web page but aren't quite sure how to build a good visualization, Data Visualization with JavaScript will help you get your feet wet without throwing you into the deep end. Before you know it, you'll be well on your way to creating simple, powerful data visualizations.",
+industryIdentifiers: [
+{
+type: "ISBN_13",
+identifier: "9781593276058"
+},
+{
+type: "ISBN_10",
+identifier: "1593276052"
+}
+],
+readingModes: {
+text: true,
+image: true
+},
+pageCount: 384,
+printType: "BOOK",
+categories: [
+"Computers"
+],
+maturityRating: "NOT_MATURE",
+allowAnonLogging: true,
+contentVersion: "1.1.1.0.preview.3",
+imageLinks: {
+smallThumbnail: "http://books.google.com/books/content?id=CUgjCAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+thumbnail: "http://books.google.com/books/content?id=CUgjCAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+},
+language: "en",
+previewLink: "http://books.google.co.uk/books?id=CUgjCAAAQBAJ&printsec=frontcover&dq=javascript&hl=&cd=9&source=gbs_api",
+infoLink: "https://play.google.com/store/books/details?id=CUgjCAAAQBAJ&source=gbs_api",
+canonicalVolumeLink: "https://market.android.com/details?id=book-CUgjCAAAQBAJ"
+},
+saleInfo: {
+country: "GB",
+saleability: "FOR_SALE",
+isEbook: true,
+listPrice: {
+amount: 23.73,
+currencyCode: "GBP"
+},
+retailPrice: {
+amount: 15.42,
+currencyCode: "GBP"
+},
+buyLink: "https://play.google.com/store/books/details?id=CUgjCAAAQBAJ&rdid=book-CUgjCAAAQBAJ&rdot=1&source=gbs_api",
+offers: [
+{
+finskyOfferType: 1,
+listPrice: {
+amountInMicros: 23730000,
+currencyCode: "GBP"
+},
+retailPrice: {
+amountInMicros: 15420000,
+currencyCode: "GBP"
+},
+giftable: true
+}
+]
+},
+accessInfo: {
+country: "GB",
+viewability: "PARTIAL",
+embeddable: true,
+publicDomain: false,
+textToSpeechPermission: "ALLOWED",
+epub: {
+isAvailable: true
+},
+pdf: {
+isAvailable: true
+},
+webReaderLink: "http://books.google.co.uk/books/reader?id=CUgjCAAAQBAJ&hl=&printsec=frontcover&output=reader&source=gbs_api",
+accessViewStatus: "SAMPLE",
+quoteSharingAllowed: false
+},
+searchInfo: {
+textSnippet: "In Data Visualization with JavaScript, you&#39;ll learn how to use JavaScript, HTML, and CSS to build the most practical visualizations for your data."
+}
+},
+{
+kind: "books#volume",
+id: "_i75jwEACAAJ",
+etag: "hbIU+EaWnPY",
+selfLink: "https://www.googleapis.com/books/v1/volumes/_i75jwEACAAJ",
+volumeInfo: {
+title: "ArcGIS for JavaScript Developers by Example",
+authors: [
+"Jayakrishnan Vijayaraghavan",
+"Yogesh Dhanapal"
+],
+publishedDate: "2016-04-29",
+description: "A practical guide to get you creating powerful mapping applications using the rich set of features provided by the ArcGIS JavaScript APIAbout This Book- Unshackle your GIS application from a workstation! Get running with three major web mapping projects covering all the important aspects of the ArcGIS JavaScript API.- Set a strong foundation for the ArcGIS JavaScript API and modular coding with dojo.- Gain a crystal clear understanding of the ArcGIS JavaScript, and become skilled in creating exciting and interesting geospatial apps.Who This Book Is ForThis book is for JavaScript developers who wish to develop amazing mapping applications using the rich set of features provided by the ArcGIS JavaScript API, but more than that, a spatial frame of mind will help a long way.What You Will Learn- Find out what you need to develop a web mapping application in the ArcGIS environment- Get to know about the major features provided by the ArcGIS JavaScript API- See the coding best practices to develop modular dojo-based JavaScript applications- Get to grips with writing custom re-usable dojo modules using dojo and esri modules and dijits- Understand how to use various ArcGIS data sources and other open geospatial data available on the web- Discover how to query spatial data and get the best out of your data using analytical techniques- Master the art of rendering your map beautifully and create wonderful data visualizations using non-map objects such as charts- Grasp how to create secure and scalable web mapsIn DetailThe book starts by explaining the basics of the ArcGIS web mapping ecosystem. The book walks you through the development of six major applications, covering a wide variety of topics such as querying, rendering, advanced data visualization and performing map analytics. It also emphasizes on writing modular code using pure dojo, which is the preferred platform for developing web GIS applications using ArcGIS JavaScript API.By the end of the book, you will have gained enough practical experience to architect a robust and visually powerful mapping application using the API. Style and approach This is a practical, hands-on guide on using the ArcGIS JavaScript API to develop mapping applications. It is packed with three progressively challenging and diverse projects that explain the plethora of API and dojo topics.",
+industryIdentifiers: [
+{
+type: "ISBN_10",
+identifier: "1785888668"
+},
+{
+type: "ISBN_13",
+identifier: "9781785888663"
+}
+],
+readingModes: {
+text: false,
+image: false
+},
+pageCount: 286,
+printType: "BOOK",
+categories: [
+"Computers"
+],
+maturityRating: "NOT_MATURE",
+allowAnonLogging: false,
+contentVersion: "preview-1.0.0",
+imageLinks: {
+smallThumbnail: "http://books.google.com/books/content?id=_i75jwEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+thumbnail: "http://books.google.com/books/content?id=_i75jwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+},
+language: "en",
+previewLink: "http://books.google.co.uk/books?id=_i75jwEACAAJ&dq=javascript&hl=&cd=10&source=gbs_api",
+infoLink: "http://books.google.co.uk/books?id=_i75jwEACAAJ&dq=javascript&hl=&source=gbs_api",
+canonicalVolumeLink: "http://books.google.co.uk/books/about/ArcGIS_for_JavaScript_Developers_by_Exam.html?hl=&id=_i75jwEACAAJ"
+},
+saleInfo: {
+country: "GB",
+saleability: "NOT_FOR_SALE",
+isEbook: false
+},
+accessInfo: {
+country: "GB",
+viewability: "NO_PAGES",
+embeddable: false,
+publicDomain: false,
+textToSpeechPermission: "ALLOWED",
+epub: {
+isAvailable: false
+},
+pdf: {
+isAvailable: false
+},
+webReaderLink: "http://books.google.co.uk/books/reader?id=_i75jwEACAAJ&hl=&printsec=frontcover&output=reader&source=gbs_api",
+accessViewStatus: "NONE",
+quoteSharingAllowed: false
+},
+searchInfo: {
+textSnippet: "A practical guide to get you creating powerful mapping applications using the rich set of features provided by the ArcGIS JavaScript APIAbout This Book- Unshackle your GIS application from a workstation!"
+}
+},
+{
+kind: "books#volume",
+id: "-4cnCgAAQBAJ",
+etag: "NJvfqoyuyY8",
+selfLink: "https://www.googleapis.com/books/v1/volumes/-4cnCgAAQBAJ",
+volumeInfo: {
+title: "Custom SharePoint Solutions with HTML and JavaScript",
+subtitle: "For SharePoint 2016 and SharePoint Online",
+authors: [
+"Brandon Atkinson"
+],
+publisher: "Apress",
+publishedDate: "2015-03-16",
+description: "Custom SharePoint Solutions with HTML and JavaScript shows you how to build and customize SharePoint solutions to suit a wide range of business needs. You don't need a background in Microsoft technologies; you’ll learn how to rapidly build and customize sites entirely on the front end, starting with out-of-the-box features and extending them with HTML and JavaScript code. The book starts with an introduction to working with SharePoint on the front end, and how this can help you avoid common pitfalls associated with deploying custom code on the server. You’ll start by using SharePoint’s browser-based tools to place and manipulate out-of-the-box web parts on a page. Then learn to inject some simple HTML and JavaScript to manipulate these web parts, and use JSLink to rapidly style and manipulate data in the List web part. You'll also see examples of how to build your own custom web parts using HTML, JavaScript and CSS. For those who want to dive deeper into JavaScript on SharePoint, chapters cover working directly with built-in JavaScript methods and properties and the JavaScript object model (JSOM), and how to work with the powerful new REST API, which gives you the ultimate flexibility over what you do with your data. Whatever your background, whether it's web development, working with SharePoint on the server side, or if you're a SharePoint user looking to learn new skills, Custom SharePoint Solutions with HTML and JavaScript will show you how to get what you want from SharePoint, quickly and reliably.",
+industryIdentifiers: [
+{
+type: "ISBN_13",
+identifier: "9781484205440"
+},
+{
+type: "ISBN_10",
+identifier: "1484205448"
+}
+],
+readingModes: {
+text: true,
+image: true
+},
+pageCount: 227,
+printType: "BOOK",
+categories: [
+"Computers"
+],
+maturityRating: "NOT_MATURE",
+allowAnonLogging: true,
+contentVersion: "1.7.6.0.preview.3",
+imageLinks: {
+smallThumbnail: "http://books.google.com/books/content?id=-4cnCgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+thumbnail: "http://books.google.com/books/content?id=-4cnCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+},
+language: "en",
+previewLink: "http://books.google.co.uk/books?id=-4cnCgAAQBAJ&printsec=frontcover&dq=javascript&hl=&cd=11&source=gbs_api",
+infoLink: "https://play.google.com/store/books/details?id=-4cnCgAAQBAJ&source=gbs_api",
+canonicalVolumeLink: "https://market.android.com/details?id=book--4cnCgAAQBAJ"
+},
+saleInfo: {
+country: "GB",
+saleability: "FOR_SALE",
+isEbook: true,
+listPrice: {
+amount: 26.5,
+currencyCode: "GBP"
+},
+retailPrice: {
+amount: 17.22,
+currencyCode: "GBP"
+},
+buyLink: "https://play.google.com/store/books/details?id=-4cnCgAAQBAJ&rdid=book--4cnCgAAQBAJ&rdot=1&source=gbs_api",
+offers: [
+{
+finskyOfferType: 1,
+listPrice: {
+amountInMicros: 26500000,
+currencyCode: "GBP"
+},
+retailPrice: {
+amountInMicros: 17220000,
+currencyCode: "GBP"
+},
+giftable: true
+}
+]
+},
+accessInfo: {
+country: "GB",
+viewability: "PARTIAL",
+embeddable: true,
+publicDomain: false,
+textToSpeechPermission: "ALLOWED",
+epub: {
+isAvailable: true,
+acsTokenLink: "http://books.google.co.uk/books/download/Custom_SharePoint_Solutions_with_HTML_an-sample-epub.acsm?id=-4cnCgAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+},
+pdf: {
+isAvailable: true,
+acsTokenLink: "http://books.google.co.uk/books/download/Custom_SharePoint_Solutions_with_HTML_an-sample-pdf.acsm?id=-4cnCgAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+},
+webReaderLink: "http://books.google.co.uk/books/reader?id=-4cnCgAAQBAJ&hl=&printsec=frontcover&output=reader&source=gbs_api",
+accessViewStatus: "SAMPLE",
+quoteSharingAllowed: false
+},
+searchInfo: {
+textSnippet: "The book starts with an introduction to working with SharePoint on the front end, and how this can help you avoid common pitfalls associated with deploying custom code on the server."
+}
+},
+{
+kind: "books#volume",
+id: "4Wo0BwAAQBAJ",
+etag: "Jt/uogEpS8Q",
+selfLink: "https://www.googleapis.com/books/v1/volumes/4Wo0BwAAQBAJ",
+volumeInfo: {
+title: "Web Animation using JavaScript",
+subtitle: "Develop & Design",
+authors: [
+"Julian Shapiro"
+],
+publisher: "Peachpit Press",
+publishedDate: "2015-03-13",
+description: "We’ve come a long way since the days of flashing banner ads and scrolling news tickers. Today, the stunning motion design of iOS and Android dramatically improves a user’s experience — instead of detracting from it. The best sites and apps of today leverage animation to improve the feel and intuitiveness of their interfaces. Sites without animation are starting to feel antiquated. This book provides you with a technical foundation to implement animation in a way that’s both visually stunning and programmatically maintainable. Throughout, we consider the balance between enriching a page with motion design while avoiding unnecessary flourishes Readers will learn how to design loading sequences that ensure users stay fully engaged instead of tuning out, how to leverage simple physics principles to make apps respond naturally to users’ input (just like motion behaves in the real world), how to exploit CSS transforms to create rich depth in animations, and how to fully leverage JavaScript animation libraries like Velocity.js to streamline animation programming. From animation performance to theory, we cover everything needed to become a professional web animator. Whether you're a novice or professional web developer, this book is for everyone. Why is all of this so important? Why is it worth your time to become a professional motion designer? For the same reason that designers spend hours perfecting their pages’ font and color combinations, motion designers perfect their animations’ transition and easing combinations: Refined products feel superior. They leave users whispering to themselves, “Wow, this is cool”, right before they turn to a friend and exclaim, “You gotta try this.”",
+industryIdentifiers: [
+{
+type: "ISBN_13",
+identifier: "9780134096674"
+},
+{
+type: "ISBN_10",
+identifier: "0134096673"
+}
+],
+readingModes: {
+text: true,
+image: true
+},
+pageCount: 192,
+printType: "BOOK",
+categories: [
+"Computers"
+],
+averageRating: 5,
+ratingsCount: 1,
+maturityRating: "NOT_MATURE",
+allowAnonLogging: true,
+contentVersion: "1.3.3.0.preview.3",
+imageLinks: {
+smallThumbnail: "http://books.google.com/books/content?id=4Wo0BwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+thumbnail: "http://books.google.com/books/content?id=4Wo0BwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+},
+language: "en",
+previewLink: "http://books.google.co.uk/books?id=4Wo0BwAAQBAJ&pg=PT95&dq=javascript&hl=&cd=12&source=gbs_api",
+infoLink: "https://play.google.com/store/books/details?id=4Wo0BwAAQBAJ&source=gbs_api",
+canonicalVolumeLink: "https://market.android.com/details?id=book-4Wo0BwAAQBAJ"
+},
+saleInfo: {
+country: "GB",
+saleability: "FOR_SALE",
+isEbook: true,
+listPrice: {
+amount: 17.18,
+currencyCode: "GBP"
+},
+retailPrice: {
+amount: 11.17,
+currencyCode: "GBP"
+},
+buyLink: "https://play.google.com/store/books/details?id=4Wo0BwAAQBAJ&rdid=book-4Wo0BwAAQBAJ&rdot=1&source=gbs_api",
+offers: [
+{
+finskyOfferType: 1,
+listPrice: {
+amountInMicros: 17180000,
+currencyCode: "GBP"
+},
+retailPrice: {
+amountInMicros: 11170000,
+currencyCode: "GBP"
+},
+giftable: true
+}
+]
+},
+accessInfo: {
+country: "GB",
+viewability: "PARTIAL",
+embeddable: true,
+publicDomain: false,
+textToSpeechPermission: "ALLOWED_FOR_ACCESSIBILITY",
+epub: {
+isAvailable: false
+},
+pdf: {
+isAvailable: false
+},
+webReaderLink: "http://books.google.co.uk/books/reader?id=4Wo0BwAAQBAJ&hl=&printsec=frontcover&output=reader&source=gbs_api",
+accessViewStatus: "SAMPLE",
+quoteSharingAllowed: false
+},
+searchInfo: {
+textSnippet: "Chained animations on a singular element constitute an effect. If you were to <br> improve this effect by implementing the first technique in this chapter (turning <br> CSS classes into <b>JavaScript</b> objects), you&#39;d have to go out of your way to <br> uniquely&nbsp;..."
+}
+},
+{
+kind: "books#volume",
+id: "l6pGjwEACAAJ",
+etag: "vvMpBJj8fO0",
+selfLink: "https://www.googleapis.com/books/v1/volumes/l6pGjwEACAAJ",
+volumeInfo: {
+title: "JavaScript Projects for Kids",
+authors: [
+"Syed Omar Faruk Towaha"
+],
+publishedDate: "2016-01-29",
+description: "Gear up for a roller-coaster ride into the world of JavaScript and programming with this easy-to-follow, fun, and entertaining project-based guideAbout This Book- Get to know the concepts of HTML and CSS to work with JavaScript- Explore the concepts of object-oriented programming- Follow this step-by-step guide on the fundamentals of JavaScript programmingWho This Book Is ForIf you've never written code before or you are completely new to the world of web programming, then this book is the right choice for you. This book is for kids of age 10 years and above and parents who are completely new to the world of programming and want to get introduced to programming.What You Will Learn- Learn how to work with Google Developer tools to iterate, debug and profile your code- Develop a Battleship game using the basic concepts of HTML and CSS- Get to know the fundamentals of JavaScript programming- Create our own version of Pac Man game.- Discover the vital concepts of object-oriented programmingIn DetailJavaScript is the most widely-used programming language for web development and that's not all! It has evolved over the years and is now being implemented in an array of environments from websites to robotics. Learning JavaScript will help you see the broader picture of web development.This book will take your imagination to new heights by teaching you how to work with JavaScript from scratch. It will introduce you to HTML and CSS to enhance the appearance of your applications. You'll then use your skills to build on a cool Battleship game! From there, the book will introduce you to jQuery and show you how you can manipulate the DOM. You'll get to play with some cool stuff using Canvas and will learn how to make use of Canvas to build a game on the lines of Pacman, only a whole lot cooler! Finally, it will show you a few tricks with OOP to make your code clean and will end with a few road maps on areas you can explore further.Style and approachThis is an easy-to-follow, informative, and fun guide that takes a project-based approach to teaching programming in JavaScript. You will learn everything you need to get started with serious web application development.",
+industryIdentifiers: [
+{
+type: "ISBN_10",
+identifier: "1785287176"
+},
+{
+type: "ISBN_13",
+identifier: "9781785287176"
+}
+],
+readingModes: {
+text: false,
+image: false
+},
+pageCount: 188,
+printType: "BOOK",
+categories: [
+"Computers"
+],
+maturityRating: "NOT_MATURE",
+allowAnonLogging: false,
+contentVersion: "preview-1.0.0",
+imageLinks: {
+smallThumbnail: "http://books.google.com/books/content?id=l6pGjwEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+thumbnail: "http://books.google.com/books/content?id=l6pGjwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+},
+language: "en",
+previewLink: "http://books.google.co.uk/books?id=l6pGjwEACAAJ&dq=javascript&hl=&cd=13&source=gbs_api",
+infoLink: "http://books.google.co.uk/books?id=l6pGjwEACAAJ&dq=javascript&hl=&source=gbs_api",
+canonicalVolumeLink: "http://books.google.co.uk/books/about/JavaScript_Projects_for_Kids.html?hl=&id=l6pGjwEACAAJ"
+},
+saleInfo: {
+country: "GB",
+saleability: "NOT_FOR_SALE",
+isEbook: false
+},
+accessInfo: {
+country: "GB",
+viewability: "NO_PAGES",
+embeddable: false,
+publicDomain: false,
+textToSpeechPermission: "ALLOWED",
+epub: {
+isAvailable: false
+},
+pdf: {
+isAvailable: false
+},
+webReaderLink: "http://books.google.co.uk/books/reader?id=l6pGjwEACAAJ&hl=&printsec=frontcover&output=reader&source=gbs_api",
+accessViewStatus: "NONE",
+quoteSharingAllowed: false
+},
+searchInfo: {
+textSnippet: "Gear up for a roller-coaster ride into the world of JavaScript and programming with this easy-to-follow, fun, and entertaining project-based guideAbout This Book- Get to know the concepts of HTML and CSS to work with JavaScript- Explore the ..."
+}
+},
+{
+kind: "books#volume",
+id: "4Wo0BwAAQBAJ",
+etag: "GPUeBwqXXV4",
+selfLink: "https://www.googleapis.com/books/v1/volumes/4Wo0BwAAQBAJ",
+volumeInfo: {
+title: "Web Animation using JavaScript",
+subtitle: "Develop & Design",
+authors: [
+"Julian Shapiro"
+],
+publisher: "Peachpit Press",
+publishedDate: "2015-03-13",
+description: "We’ve come a long way since the days of flashing banner ads and scrolling news tickers. Today, the stunning motion design of iOS and Android dramatically improves a user’s experience — instead of detracting from it. The best sites and apps of today leverage animation to improve the feel and intuitiveness of their interfaces. Sites without animation are starting to feel antiquated. This book provides you with a technical foundation to implement animation in a way that’s both visually stunning and programmatically maintainable. Throughout, we consider the balance between enriching a page with motion design while avoiding unnecessary flourishes Readers will learn how to design loading sequences that ensure users stay fully engaged instead of tuning out, how to leverage simple physics principles to make apps respond naturally to users’ input (just like motion behaves in the real world), how to exploit CSS transforms to create rich depth in animations, and how to fully leverage JavaScript animation libraries like Velocity.js to streamline animation programming. From animation performance to theory, we cover everything needed to become a professional web animator. Whether you're a novice or professional web developer, this book is for everyone. Why is all of this so important? Why is it worth your time to become a professional motion designer? For the same reason that designers spend hours perfecting their pages’ font and color combinations, motion designers perfect their animations’ transition and easing combinations: Refined products feel superior. They leave users whispering to themselves, “Wow, this is cool”, right before they turn to a friend and exclaim, “You gotta try this.”",
+industryIdentifiers: [
+{
+type: "ISBN_13",
+identifier: "9780134096674"
+},
+{
+type: "ISBN_10",
+identifier: "0134096673"
+}
+],
+readingModes: {
+text: true,
+image: true
+},
+pageCount: 192,
+printType: "BOOK",
+categories: [
+"Computers"
+],
+averageRating: 5,
+ratingsCount: 1,
+maturityRating: "NOT_MATURE",
+allowAnonLogging: true,
+contentVersion: "1.3.3.0.preview.3",
+imageLinks: {
+smallThumbnail: "http://books.google.com/books/content?id=4Wo0BwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+thumbnail: "http://books.google.com/books/content?id=4Wo0BwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+},
+language: "en",
+previewLink: "http://books.google.co.uk/books?id=4Wo0BwAAQBAJ&pg=PT71&dq=javascript&hl=&cd=14&source=gbs_api",
+infoLink: "https://play.google.com/store/books/details?id=4Wo0BwAAQBAJ&source=gbs_api",
+canonicalVolumeLink: "https://market.android.com/details?id=book-4Wo0BwAAQBAJ"
+},
+saleInfo: {
+country: "GB",
+saleability: "FOR_SALE",
+isEbook: true,
+listPrice: {
+amount: 17.18,
+currencyCode: "GBP"
+},
+retailPrice: {
+amount: 11.17,
+currencyCode: "GBP"
+},
+buyLink: "https://play.google.com/store/books/details?id=4Wo0BwAAQBAJ&rdid=book-4Wo0BwAAQBAJ&rdot=1&source=gbs_api",
+offers: [
+{
+finskyOfferType: 1,
+listPrice: {
+amountInMicros: 17180000,
+currencyCode: "GBP"
+},
+retailPrice: {
+amountInMicros: 11170000,
+currencyCode: "GBP"
+},
+giftable: true
+}
+]
+},
+accessInfo: {
+country: "GB",
+viewability: "PARTIAL",
+embeddable: true,
+publicDomain: false,
+textToSpeechPermission: "ALLOWED_FOR_ACCESSIBILITY",
+epub: {
+isAvailable: false
+},
+pdf: {
+isAvailable: false
+},
+webReaderLink: "http://books.google.co.uk/books/reader?id=4Wo0BwAAQBAJ&hl=&printsec=frontcover&output=reader&source=gbs_api",
+accessViewStatus: "SAMPLE",
+quoteSharingAllowed: false
+}
+},
+{
+kind: "books#volume",
+id: "4Wo0BwAAQBAJ",
+etag: "9IEP2VAc2Ek",
+selfLink: "https://www.googleapis.com/books/v1/volumes/4Wo0BwAAQBAJ",
+volumeInfo: {
+title: "Web Animation using JavaScript",
+subtitle: "Develop & Design",
+authors: [
+"Julian Shapiro"
+],
+publisher: "Peachpit Press",
+publishedDate: "2015-03-13",
+description: "We’ve come a long way since the days of flashing banner ads and scrolling news tickers. Today, the stunning motion design of iOS and Android dramatically improves a user’s experience — instead of detracting from it. The best sites and apps of today leverage animation to improve the feel and intuitiveness of their interfaces. Sites without animation are starting to feel antiquated. This book provides you with a technical foundation to implement animation in a way that’s both visually stunning and programmatically maintainable. Throughout, we consider the balance between enriching a page with motion design while avoiding unnecessary flourishes Readers will learn how to design loading sequences that ensure users stay fully engaged instead of tuning out, how to leverage simple physics principles to make apps respond naturally to users’ input (just like motion behaves in the real world), how to exploit CSS transforms to create rich depth in animations, and how to fully leverage JavaScript animation libraries like Velocity.js to streamline animation programming. From animation performance to theory, we cover everything needed to become a professional web animator. Whether you're a novice or professional web developer, this book is for everyone. Why is all of this so important? Why is it worth your time to become a professional motion designer? For the same reason that designers spend hours perfecting their pages’ font and color combinations, motion designers perfect their animations’ transition and easing combinations: Refined products feel superior. They leave users whispering to themselves, “Wow, this is cool”, right before they turn to a friend and exclaim, “You gotta try this.”",
+industryIdentifiers: [
+{
+type: "ISBN_13",
+identifier: "9780134096674"
+},
+{
+type: "ISBN_10",
+identifier: "0134096673"
+}
+],
+readingModes: {
+text: true,
+image: true
+},
+pageCount: 192,
+printType: "BOOK",
+categories: [
+"Computers"
+],
+averageRating: 5,
+ratingsCount: 1,
+maturityRating: "NOT_MATURE",
+allowAnonLogging: true,
+contentVersion: "1.3.3.0.preview.3",
+imageLinks: {
+smallThumbnail: "http://books.google.com/books/content?id=4Wo0BwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+thumbnail: "http://books.google.com/books/content?id=4Wo0BwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+},
+language: "en",
+previewLink: "http://books.google.co.uk/books?id=4Wo0BwAAQBAJ&pg=PT72&dq=javascript&hl=&cd=15&source=gbs_api",
+infoLink: "https://play.google.com/store/books/details?id=4Wo0BwAAQBAJ&source=gbs_api",
+canonicalVolumeLink: "https://market.android.com/details?id=book-4Wo0BwAAQBAJ"
+},
+saleInfo: {
+country: "GB",
+saleability: "FOR_SALE",
+isEbook: true,
+listPrice: {
+amount: 17.18,
+currencyCode: "GBP"
+},
+retailPrice: {
+amount: 11.17,
+currencyCode: "GBP"
+},
+buyLink: "https://play.google.com/store/books/details?id=4Wo0BwAAQBAJ&rdid=book-4Wo0BwAAQBAJ&rdot=1&source=gbs_api",
+offers: [
+{
+finskyOfferType: 1,
+listPrice: {
+amountInMicros: 17180000,
+currencyCode: "GBP"
+},
+retailPrice: {
+amountInMicros: 11170000,
+currencyCode: "GBP"
+},
+giftable: true
+}
+]
+},
+accessInfo: {
+country: "GB",
+viewability: "PARTIAL",
+embeddable: true,
+publicDomain: false,
+textToSpeechPermission: "ALLOWED_FOR_ACCESSIBILITY",
+epub: {
+isAvailable: false
+},
+pdf: {
+isAvailable: false
+},
+webReaderLink: "http://books.google.co.uk/books/reader?id=4Wo0BwAAQBAJ&hl=&printsec=frontcover&output=reader&source=gbs_api",
+accessViewStatus: "SAMPLE",
+quoteSharingAllowed: false
+}
+},
+{
+kind: "books#volume",
+id: "4Wo0BwAAQBAJ",
+etag: "lmQ1Y1ZEKiQ",
+selfLink: "https://www.googleapis.com/books/v1/volumes/4Wo0BwAAQBAJ",
+volumeInfo: {
+title: "Web Animation using JavaScript",
+subtitle: "Develop & Design",
+authors: [
+"Julian Shapiro"
+],
+publisher: "Peachpit Press",
+publishedDate: "2015-03-13",
+description: "We’ve come a long way since the days of flashing banner ads and scrolling news tickers. Today, the stunning motion design of iOS and Android dramatically improves a user’s experience — instead of detracting from it. The best sites and apps of today leverage animation to improve the feel and intuitiveness of their interfaces. Sites without animation are starting to feel antiquated. This book provides you with a technical foundation to implement animation in a way that’s both visually stunning and programmatically maintainable. Throughout, we consider the balance between enriching a page with motion design while avoiding unnecessary flourishes Readers will learn how to design loading sequences that ensure users stay fully engaged instead of tuning out, how to leverage simple physics principles to make apps respond naturally to users’ input (just like motion behaves in the real world), how to exploit CSS transforms to create rich depth in animations, and how to fully leverage JavaScript animation libraries like Velocity.js to streamline animation programming. From animation performance to theory, we cover everything needed to become a professional web animator. Whether you're a novice or professional web developer, this book is for everyone. Why is all of this so important? Why is it worth your time to become a professional motion designer? For the same reason that designers spend hours perfecting their pages’ font and color combinations, motion designers perfect their animations’ transition and easing combinations: Refined products feel superior. They leave users whispering to themselves, “Wow, this is cool”, right before they turn to a friend and exclaim, “You gotta try this.”",
+industryIdentifiers: [
+{
+type: "ISBN_13",
+identifier: "9780134096674"
+},
+{
+type: "ISBN_10",
+identifier: "0134096673"
+}
+],
+readingModes: {
+text: true,
+image: true
+},
+pageCount: 192,
+printType: "BOOK",
+categories: [
+"Computers"
+],
+averageRating: 5,
+ratingsCount: 1,
+maturityRating: "NOT_MATURE",
+allowAnonLogging: true,
+contentVersion: "1.3.3.0.preview.3",
+imageLinks: {
+smallThumbnail: "http://books.google.com/books/content?id=4Wo0BwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+thumbnail: "http://books.google.com/books/content?id=4Wo0BwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+},
+language: "en",
+previewLink: "http://books.google.co.uk/books?id=4Wo0BwAAQBAJ&pg=PT70&dq=javascript&hl=&cd=16&source=gbs_api",
+infoLink: "https://play.google.com/store/books/details?id=4Wo0BwAAQBAJ&source=gbs_api",
+canonicalVolumeLink: "https://market.android.com/details?id=book-4Wo0BwAAQBAJ"
+},
+saleInfo: {
+country: "GB",
+saleability: "FOR_SALE",
+isEbook: true,
+listPrice: {
+amount: 17.18,
+currencyCode: "GBP"
+},
+retailPrice: {
+amount: 11.17,
+currencyCode: "GBP"
+},
+buyLink: "https://play.google.com/store/books/details?id=4Wo0BwAAQBAJ&rdid=book-4Wo0BwAAQBAJ&rdot=1&source=gbs_api",
+offers: [
+{
+finskyOfferType: 1,
+listPrice: {
+amountInMicros: 17180000,
+currencyCode: "GBP"
+},
+retailPrice: {
+amountInMicros: 11170000,
+currencyCode: "GBP"
+},
+giftable: true
+}
+]
+},
+accessInfo: {
+country: "GB",
+viewability: "PARTIAL",
+embeddable: true,
+publicDomain: false,
+textToSpeechPermission: "ALLOWED_FOR_ACCESSIBILITY",
+epub: {
+isAvailable: false
+},
+pdf: {
+isAvailable: false
+},
+webReaderLink: "http://books.google.co.uk/books/reader?id=4Wo0BwAAQBAJ&hl=&printsec=frontcover&output=reader&source=gbs_api",
+accessViewStatus: "SAMPLE",
+quoteSharingAllowed: false
+}
+},
+{
+kind: "books#volume",
+id: "4Wo0BwAAQBAJ",
+etag: "xB6LlbMpP6s",
+selfLink: "https://www.googleapis.com/books/v1/volumes/4Wo0BwAAQBAJ",
+volumeInfo: {
+title: "Web Animation using JavaScript",
+subtitle: "Develop & Design",
+authors: [
+"Julian Shapiro"
+],
+publisher: "Peachpit Press",
+publishedDate: "2015-03-13",
+description: "We’ve come a long way since the days of flashing banner ads and scrolling news tickers. Today, the stunning motion design of iOS and Android dramatically improves a user’s experience — instead of detracting from it. The best sites and apps of today leverage animation to improve the feel and intuitiveness of their interfaces. Sites without animation are starting to feel antiquated. This book provides you with a technical foundation to implement animation in a way that’s both visually stunning and programmatically maintainable. Throughout, we consider the balance between enriching a page with motion design while avoiding unnecessary flourishes Readers will learn how to design loading sequences that ensure users stay fully engaged instead of tuning out, how to leverage simple physics principles to make apps respond naturally to users’ input (just like motion behaves in the real world), how to exploit CSS transforms to create rich depth in animations, and how to fully leverage JavaScript animation libraries like Velocity.js to streamline animation programming. From animation performance to theory, we cover everything needed to become a professional web animator. Whether you're a novice or professional web developer, this book is for everyone. Why is all of this so important? Why is it worth your time to become a professional motion designer? For the same reason that designers spend hours perfecting their pages’ font and color combinations, motion designers perfect their animations’ transition and easing combinations: Refined products feel superior. They leave users whispering to themselves, “Wow, this is cool”, right before they turn to a friend and exclaim, “You gotta try this.”",
+industryIdentifiers: [
+{
+type: "ISBN_13",
+identifier: "9780134096674"
+},
+{
+type: "ISBN_10",
+identifier: "0134096673"
+}
+],
+readingModes: {
+text: true,
+image: true
+},
+pageCount: 192,
+printType: "BOOK",
+categories: [
+"Computers"
+],
+averageRating: 5,
+ratingsCount: 1,
+maturityRating: "NOT_MATURE",
+allowAnonLogging: true,
+contentVersion: "1.3.3.0.preview.3",
+imageLinks: {
+smallThumbnail: "http://books.google.com/books/content?id=4Wo0BwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+thumbnail: "http://books.google.com/books/content?id=4Wo0BwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+},
+language: "en",
+previewLink: "http://books.google.co.uk/books?id=4Wo0BwAAQBAJ&pg=PT60&dq=javascript&hl=&cd=17&source=gbs_api",
+infoLink: "https://play.google.com/store/books/details?id=4Wo0BwAAQBAJ&source=gbs_api",
+canonicalVolumeLink: "https://market.android.com/details?id=book-4Wo0BwAAQBAJ"
+},
+saleInfo: {
+country: "GB",
+saleability: "FOR_SALE",
+isEbook: true,
+listPrice: {
+amount: 17.18,
+currencyCode: "GBP"
+},
+retailPrice: {
+amount: 11.17,
+currencyCode: "GBP"
+},
+buyLink: "https://play.google.com/store/books/details?id=4Wo0BwAAQBAJ&rdid=book-4Wo0BwAAQBAJ&rdot=1&source=gbs_api",
+offers: [
+{
+finskyOfferType: 1,
+listPrice: {
+amountInMicros: 17180000,
+currencyCode: "GBP"
+},
+retailPrice: {
+amountInMicros: 11170000,
+currencyCode: "GBP"
+},
+giftable: true
+}
+]
+},
+accessInfo: {
+country: "GB",
+viewability: "PARTIAL",
+embeddable: true,
+publicDomain: false,
+textToSpeechPermission: "ALLOWED_FOR_ACCESSIBILITY",
+epub: {
+isAvailable: false
+},
+pdf: {
+isAvailable: false
+},
+webReaderLink: "http://books.google.co.uk/books/reader?id=4Wo0BwAAQBAJ&hl=&printsec=frontcover&output=reader&source=gbs_api",
+accessViewStatus: "SAMPLE",
+quoteSharingAllowed: false
+}
+},
+{
+kind: "books#volume",
+id: "Fru9BgAAQBAJ",
+etag: "ofzBLP1/w+4",
+selfLink: "https://www.googleapis.com/books/v1/volumes/Fru9BgAAQBAJ",
+volumeInfo: {
+title: "Learning Behavior-driven Development with JavaScript",
+authors: [
+"Enrique Amodeo"
+],
+publisher: "Packt Publishing Ltd",
+publishedDate: "2015-02-19",
+description: "This book is ideal for any JavaScript developer who is interested in producing well-tested code. If you have no prior experience with testing, Node.js, or any other tool, do not worry, as they will be explained from scratch.",
+industryIdentifiers: [
+{
+type: "ISBN_13",
+identifier: "9781784390174"
+},
+{
+type: "ISBN_10",
+identifier: "1784390178"
+}
+],
+readingModes: {
+text: true,
+image: true
+},
+pageCount: 392,
+printType: "BOOK",
+categories: [
+"Computers"
+],
+maturityRating: "NOT_MATURE",
+allowAnonLogging: true,
+contentVersion: "2.2.2.0.preview.3",
+imageLinks: {
+smallThumbnail: "http://books.google.com/books/content?id=Fru9BgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+thumbnail: "http://books.google.com/books/content?id=Fru9BgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+},
+language: "en",
+previewLink: "http://books.google.co.uk/books?id=Fru9BgAAQBAJ&pg=PA377&dq=javascript&hl=&cd=18&source=gbs_api",
+infoLink: "https://play.google.com/store/books/details?id=Fru9BgAAQBAJ&source=gbs_api",
+canonicalVolumeLink: "https://market.android.com/details?id=book-Fru9BgAAQBAJ"
+},
+saleInfo: {
+country: "GB",
+saleability: "FOR_SALE",
+isEbook: true,
+listPrice: {
+amount: 22.79,
+currencyCode: "GBP"
+},
+retailPrice: {
+amount: 14.81,
+currencyCode: "GBP"
+},
+buyLink: "https://play.google.com/store/books/details?id=Fru9BgAAQBAJ&rdid=book-Fru9BgAAQBAJ&rdot=1&source=gbs_api",
+offers: [
+{
+finskyOfferType: 1,
+listPrice: {
+amountInMicros: 22790000,
+currencyCode: "GBP"
+},
+retailPrice: {
+amountInMicros: 14810000,
+currencyCode: "GBP"
+},
+giftable: true
+}
+]
+},
+accessInfo: {
+country: "GB",
+viewability: "PARTIAL",
+embeddable: true,
+publicDomain: false,
+textToSpeechPermission: "ALLOWED",
+epub: {
+isAvailable: true
+},
+pdf: {
+isAvailable: true
+},
+webReaderLink: "http://books.google.co.uk/books/reader?id=Fru9BgAAQBAJ&hl=&printsec=frontcover&output=reader&source=gbs_api",
+accessViewStatus: "SAMPLE",
+quoteSharingAllowed: false
+},
+searchInfo: {
+textSnippet: "ISBN: 978-1-84951-000-4 Paperback: 272 pages Test and debug <b>JavaScript</b> the <br> easy way 1. Learn different techniques to test <b>JavaScript</b>, no matter how long or <br> short your code might be. Discover the most important and free tools to help&nbsp;..."
+}
+},
+{
+kind: "books#volume",
+id: "Fru9BgAAQBAJ",
+etag: "7qxxcq2QgRc",
+selfLink: "https://www.googleapis.com/books/v1/volumes/Fru9BgAAQBAJ",
+volumeInfo: {
+title: "Learning Behavior-driven Development with JavaScript",
+authors: [
+"Enrique Amodeo"
+],
+publisher: "Packt Publishing Ltd",
+publishedDate: "2015-02-19",
+description: "This book is ideal for any JavaScript developer who is interested in producing well-tested code. If you have no prior experience with testing, Node.js, or any other tool, do not worry, as they will be explained from scratch.",
+industryIdentifiers: [
+{
+type: "ISBN_13",
+identifier: "9781784390174"
+},
+{
+type: "ISBN_10",
+identifier: "1784390178"
+}
+],
+readingModes: {
+text: true,
+image: true
+},
+pageCount: 392,
+printType: "BOOK",
+categories: [
+"Computers"
+],
+maturityRating: "NOT_MATURE",
+allowAnonLogging: true,
+contentVersion: "2.2.2.0.preview.3",
+imageLinks: {
+smallThumbnail: "http://books.google.com/books/content?id=Fru9BgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+thumbnail: "http://books.google.com/books/content?id=Fru9BgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+},
+language: "en",
+previewLink: "http://books.google.co.uk/books?id=Fru9BgAAQBAJ&pg=PA27&dq=javascript&hl=&cd=19&source=gbs_api",
+infoLink: "https://play.google.com/store/books/details?id=Fru9BgAAQBAJ&source=gbs_api",
+canonicalVolumeLink: "https://market.android.com/details?id=book-Fru9BgAAQBAJ"
+},
+saleInfo: {
+country: "GB",
+saleability: "FOR_SALE",
+isEbook: true,
+listPrice: {
+amount: 22.79,
+currencyCode: "GBP"
+},
+retailPrice: {
+amount: 14.81,
+currencyCode: "GBP"
+},
+buyLink: "https://play.google.com/store/books/details?id=Fru9BgAAQBAJ&rdid=book-Fru9BgAAQBAJ&rdot=1&source=gbs_api",
+offers: [
+{
+finskyOfferType: 1,
+listPrice: {
+amountInMicros: 22790000,
+currencyCode: "GBP"
+},
+retailPrice: {
+amountInMicros: 14810000,
+currencyCode: "GBP"
+},
+giftable: true
+}
+]
+},
+accessInfo: {
+country: "GB",
+viewability: "PARTIAL",
+embeddable: true,
+publicDomain: false,
+textToSpeechPermission: "ALLOWED",
+epub: {
+isAvailable: true
+},
+pdf: {
+isAvailable: true
+},
+webReaderLink: "http://books.google.co.uk/books/reader?id=Fru9BgAAQBAJ&hl=&printsec=frontcover&output=reader&source=gbs_api",
+accessViewStatus: "SAMPLE",
+quoteSharingAllowed: false
+},
+searchInfo: {
+textSnippet: "Before we start making some BDD, let&#39;s familiarize ourselves with the basic tools <br> available in <b>JavaScript</b> to write and execute a test. In this chapter, we will explore <br> the main capabilities of Mocha, the most popular test runner in <b>JavaScript</b>."
+}
+},
+{
+kind: "books#volume",
+id: "Fru9BgAAQBAJ",
+etag: "xV8W1IJodFI",
+selfLink: "https://www.googleapis.com/books/v1/volumes/Fru9BgAAQBAJ",
+volumeInfo: {
+title: "Learning Behavior-driven Development with JavaScript",
+authors: [
+"Enrique Amodeo"
+],
+publisher: "Packt Publishing Ltd",
+publishedDate: "2015-02-19",
+description: "This book is ideal for any JavaScript developer who is interested in producing well-tested code. If you have no prior experience with testing, Node.js, or any other tool, do not worry, as they will be explained from scratch.",
+industryIdentifiers: [
+{
+type: "ISBN_13",
+identifier: "9781784390174"
+},
+{
+type: "ISBN_10",
+identifier: "1784390178"
+}
+],
+readingModes: {
+text: true,
+image: true
+},
+pageCount: 392,
+printType: "BOOK",
+categories: [
+"Computers"
+],
+maturityRating: "NOT_MATURE",
+allowAnonLogging: true,
+contentVersion: "2.2.2.0.preview.3",
+imageLinks: {
+smallThumbnail: "http://books.google.com/books/content?id=Fru9BgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+thumbnail: "http://books.google.com/books/content?id=Fru9BgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+},
+language: "en",
+previewLink: "http://books.google.co.uk/books?id=Fru9BgAAQBAJ&pg=PA245&dq=javascript&hl=&cd=20&source=gbs_api",
+infoLink: "https://play.google.com/store/books/details?id=Fru9BgAAQBAJ&source=gbs_api",
+canonicalVolumeLink: "https://market.android.com/details?id=book-Fru9BgAAQBAJ"
+},
+saleInfo: {
+country: "GB",
+saleability: "FOR_SALE",
+isEbook: true,
+listPrice: {
+amount: 22.79,
+currencyCode: "GBP"
+},
+retailPrice: {
+amount: 14.81,
+currencyCode: "GBP"
+},
+buyLink: "https://play.google.com/store/books/details?id=Fru9BgAAQBAJ&rdid=book-Fru9BgAAQBAJ&rdot=1&source=gbs_api",
+offers: [
+{
+finskyOfferType: 1,
+listPrice: {
+amountInMicros: 22790000,
+currencyCode: "GBP"
+},
+retailPrice: {
+amountInMicros: 14810000,
+currencyCode: "GBP"
+},
+giftable: true
+}
+]
+},
+accessInfo: {
+country: "GB",
+viewability: "PARTIAL",
+embeddable: true,
+publicDomain: false,
+textToSpeechPermission: "ALLOWED",
+epub: {
+isAvailable: true
+},
+pdf: {
+isAvailable: true
+},
+webReaderLink: "http://books.google.co.uk/books/reader?id=Fru9BgAAQBAJ&hl=&printsec=frontcover&output=reader&source=gbs_api",
+accessViewStatus: "SAMPLE",
+quoteSharingAllowed: false
+},
+searchInfo: {
+textSnippet: "It can be used as an API from <b>JavaScript</b> code or as a standalone command-line <br> tool. It can be integrated easily with the most popular build systems in the <br> <b>JavaScript</b> ecosystem, such as Grunt (http://gruntjs.com/) or Gulp (http://gulpjs.<br> com/)."
+}
+}
+]
+}
