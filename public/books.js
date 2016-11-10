@@ -1,6 +1,8 @@
 'use strict';
 
-var booksApp = (function() {
+var booksApp = (function () {
+
+  var module = {};
 
   function createBook(book) {
     return {
@@ -9,17 +11,6 @@ var booksApp = (function() {
       thm: book.volumeInfo.imageLinks ? book.volumeInfo.imageLinks.smallThumbnail : './no-image.jpg',
       alt: book.volumeInfo.imageLinks ? book.volumeInfo.title + ' cover' : 'No cover available'
     }
-  };
-
-  function createBookList(books){
-    var newList = document.createElement('ul');
-
-    for (var i = 0; i < books.length; i++) {
-      var book = createBook(books[i]);
-      var row = createBookRow(book.title, book.description, book.thm, book.alt);
-      newList.appendChild(row);
-    };
-    document.getElementById('app').appendChild(newList);
   };
 
   function createSummary(description, charCount) {
@@ -48,7 +39,18 @@ var booksApp = (function() {
     return listItem;
   };
 
-  function getBooks(q) {
+  function createBookList(books) {
+    var newList = document.createElement('ul');
+
+    for (var i = 0; i < books.length; i++) {
+      var book = createBook(books[i]);
+      var row = createBookRow(book.title, book.description, book.thm, book.alt);
+      newList.appendChild(row);
+    };
+    document.getElementById('app').appendChild(newList);
+  };
+
+  module.getBooks = function(q) {
     var request = new XMLHttpRequest();
     request.open('GET', 'https://www.googleapis.com/books/v1/volumes?q=' + q + '&maxResults=20&orderBy=newest', true);
     request.onload = function() {
@@ -64,9 +66,5 @@ var booksApp = (function() {
     };
     request.send();
   };
-
-  return {
-    getBooks: getBooks("javascript")
-  }
-
-})();
+  return module;
+}());
