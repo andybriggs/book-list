@@ -1,7 +1,7 @@
 # Book List
 
 ## Prerequisite
- - Node.js - to run the local server
+ - Node.js - to install and run the local server
  - You can run the index.html directly in the browser if you do not have Node.js installed
 
 ## Setup
@@ -17,3 +17,7 @@
 `npm start`
 
 Go to  `http://localhost:3000/`
+
+## Tests
+
+`npm test`

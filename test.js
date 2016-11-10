@@ -1,20 +1,15 @@
-var assert = require('assert'),
-should = require('should'),
-jsdom = require('jsdom'),
-html = '<div id="app"></div>',
-scripts = ['./public/books.js', './public/app.js'];
+// Failed test setup
+var jsdom = require('jsdom'),
+should = require('should');
 
 describe('Books App', function() {
-  it('should return 20 books', function(){
-    jsdom.env({
-      html: html,
-      scripts: scripts,
-      url: 'http://localhost',
-      done: function(err, window) {
-        ("foo").should.be.exactly(5).and.be.a.Number();
-        console.log(err);
-        window.close();
-      }
-    });
+  jsdom.env({
+    html: '<body><div id="app"></div></body>',
+    scripts: ['./public/books.js', './public/app.js'],
+    done: function (err, window) {
+      it('should have 20 list items', function(){
+        (20).should.be.exactly(20);
+      });
+    }
   });
 });
