@@ -13,8 +13,8 @@ var booksApp = (function () {
     }
   };
 
-  function createSummary(description, charCount) {
-    var summary = description.substring(0, charCount) + '...';
+  function createSummary(description, charLimit) {
+    var summary = description.substring(0, charLimit) + '...';
     return summary;
   };
 
@@ -66,5 +66,7 @@ var booksApp = (function () {
     };
     request.send();
   };
+
   return module;
+
 }());
