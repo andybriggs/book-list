@@ -20,4 +20,4 @@ Go to  `http://localhost:3000/`
 
 ## Tests
 
-`npm test`
+`npm test` _0% coverage - not implemented_
