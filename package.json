@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "Book list",
   "main": "app.js",
-  "scripts": {
-    "test": "mocha"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/andybriggs/book-list.git"
@@ -17,9 +14,10 @@
   },
   "homepage": "https://github.com/andybriggs/book-list",
   "dependencies": {
-    "express": "^4.14.0",
-    "jsdom": "^9.8.3",
-    "mocha": "^3.1.2",
-    "should": "^11.1.1"
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "jasmine": "^2.5.2"
   }
 }

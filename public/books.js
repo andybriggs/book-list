@@ -2,9 +2,7 @@
 
 var booksApp = (function () {
 
-  var module = {};
-
-  function createBook(book) {
+  function _createBook(book) {
     return {
       title: book.volumeInfo.title,
       description: book.volumeInfo.description,
@@ -13,14 +11,14 @@ var booksApp = (function () {
     }
   };
 
-  function createSummary(description, charLimit) {
+  function _createSummary(description, charLimit) {
     var summary = description.substring(0, charLimit) + '...';
     return summary;
   };
 
-  function createBookRow(title, description, imgSrc, alt) {
+  function _createBookRow(title, description, imgSrc, alt) {
     var listItem = document.createElement('li'),
-    summary = createSummary(description, 200);
+    summary = _createSummary(description, 200);
 
     var bookContainer = document.createElement('article'),
     bookTitle = document.createElement('h1'),
@@ -39,24 +37,24 @@ var booksApp = (function () {
     return listItem;
   };
 
-  function createBookList(books) {
+  function _createBookList(books) {
     var newList = document.createElement('ul');
 
     for (var i = 0; i < books.length; i++) {
-      var book = createBook(books[i]);
-      var row = createBookRow(book.title, book.description, book.thm, book.alt);
+      var book = _createBook(books[i]);
+      var row = _createBookRow(book.title, book.description, book.thm, book.alt);
       newList.appendChild(row);
     };
     document.getElementById('app').appendChild(newList);
   };
 
-  module.getBooks = function(q) {
+  function getBooks(q) {
     var request = new XMLHttpRequest();
-    request.open('GET', 'https://www.googleapis.com/books/v1/volumes?q=' + q + '&maxResults=20&orderBy=newest', true);
+    request.open('GET', '/api' + q + '&maxResults=20&orderBy=newest', true);
     request.onload = function() {
       if (request.status >= 200 && request.status < 400) {
         var data = JSON.parse(request.responseText);
-        createBookList(data.items);
+        _createBookList(data.items);
       } else {
         console.log('something went wrong');
       }
@@ -67,6 +65,8 @@ var booksApp = (function () {
     request.send();
   };
 
-  return module;
+  return {
+    getBooks: getBooks
+  };
 
 }());

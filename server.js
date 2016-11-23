@@ -1,11 +1,24 @@
 var path = require('path');
 var express = require('express');
+var bodyParser = require('body-parser');
 
 var app = express();
-
 var staticPath = path.join(__dirname, '/public');
-app.use(express.static(staticPath));
+var port = process.env.PORT || 8080;
 
-app.listen(3000, function() {
-  console.log('listening on port 3000');
+app.use(express.static(staticPath));
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.json());
+
+var router = express.Router();
+
+router.get('/', function(req, res) {
+    res.json({ message: 'hooray! welcome to our api!' });
 });
+
+app.use('/api', router);
+
+
+app.listen(port);
+
+console.log('App listening on port ' + port);
